@@ -9,10 +9,10 @@ const Header = () => {
   return (
     <div className='flex justify-between px-10 py-7 items-center mx-12 max-tablet:px-3 '>
        <section className='flex items-center gap-10 font-medium '>
-        <img src='./piggyvest logo.svg' alt='' className='w-45'/>
+       <Link to="/"> <img src='./piggyvest logo.svg' alt='' className='w-45'/></Link>
         
-      <Link to="/"> <nav className='max-tablet:hidden'>Home</nav></Link>
-       <Link to="/Save"> <nav className='max-tablet:hidden'>Save</nav></Link>
+      <Link to="/Save"> <nav className='max-tablet:hidden'>Save</nav></Link>
+       <Link to="/Invest"> <nav className='max-tablet:hidden'>Invest</nav></Link>
       <Link to="/Stories"> <nav className='max-tablet:hidden'>Stories</nav></Link>
        <Link to="/Faq"> <nav className='max-tablet:hidden'>FAQs</nav></Link>
         <Link to="/Resources"><nav className='max-tablet:hidden'>Resources</nav></Link>
