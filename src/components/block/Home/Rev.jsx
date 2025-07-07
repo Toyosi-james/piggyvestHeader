@@ -1,5 +1,5 @@
 import React from "react";
-import fallBack from "../../../assets/fallbackimg.png";
+import fallBack from "../../../assets/fallback.png";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import Button from "../../reusable/Button";
 import users from "../../../assets/users.png";
