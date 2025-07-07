@@ -2,7 +2,7 @@ import React from "react";
 import { BsArrowReturnRight } from "react-icons/bs";
 import tSavings from "../../../assets/targetsavings.avif";
 import safeLock from "../../../assets/safelock.png";
-import piggBank from "../../../assets/piggybank.png";
+import piggBank from "../../../assets/Piggybank.png";
 import houseMoney from "../../../assets/housemoney.png";
 import flexNaira from "../../../assets/flex naira.avif";
 import flexDollar from "../../../assets/flex dollar.avif";
