@@ -1,9 +1,20 @@
 import React from 'react'
+import InvestHero from '../components/block/Invest/InvestHero'
+import InvestCards from '../components/block/Invest/InvestCards'
+import Logo from "../static/Logo"
+import Footer from "../static/Footer"
+import InvestSecondHero from '../components/block/Invest/InvestSecondHero'
+import InvestMiniCards from '../components/block/Invest/InvestMiniCards'
 
 const Invest = () => {
   return (
     <div>
-      <h1 className="text-center m-20 text-9xl text-blue-500">INVEST</h1>
+      <InvestHero/>
+      <InvestCards/>
+      <InvestSecondHero/>
+      <InvestMiniCards/>
+      <Logo/>
+      <Footer/>
     </div>
   )
 }

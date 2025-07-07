@@ -5,7 +5,7 @@
 }
 
 :root {
-  font-family:"Montserrat", sans-serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family:"Plus Jakarta Sans", sans-serif system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
 
  
@@ -16,5 +16,32 @@
 }
 body{
   background-color: #f2f7f8;
+  
+}
+@keyframes bounce-slow{
+  0%,100%{
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.bounce-slow{
+  animation: bounce-slow 2s ease-in-out infinite;
+}
+.faq{
+  border-top: 1px solid #dddddd;
 }
 
+.prop-card.activebg h1,
+.prop-card.activebg p
+ {
+  color: white !important;
+}
+.prop-card.activebg  svg{
+  fill: white !important;
+}
+.prop-card.activebg img{
+  display: block !important;
+  
+}

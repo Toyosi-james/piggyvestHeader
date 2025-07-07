@@ -1,9 +1,17 @@
 import React from 'react'
-
+import StoriesHero from '../components/block/stories/StoriesHero'
+import Logo from "../static/Logo"
+import Footer from "../static/Footer"
+import StoriesReviews from '../components/block/stories/StoriesReviews'
+import UsersStories from '../components/block/stories/UsersStories'
 const Stories = () => {
   return (
     <div>
-      <h1 className="text-center m-20 text-9xl text-yellow-500" >STORIES</h1>
+     <StoriesHero/>
+     <StoriesReviews/>
+     <UsersStories/>
+        <Logo/>
+        <Footer/>
     </div>
   )
 }

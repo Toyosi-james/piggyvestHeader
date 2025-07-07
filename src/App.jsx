@@ -6,6 +6,7 @@ import Invest from "./pages/Invest"
 import Stories from "./pages/Stories"
 import Faq from "./pages/Faq"
 import Resources from "./pages/Resources"
+import Shop from "./pages/Shop"
   
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/Stories" element={<Stories/>}/>
         <Route path="/Faq" element={<Faq/>}/>
         <Route path="/Resources" element={<Resources/>}/>
+        <Route path="/Shop" element= {<Shop/>}/>
 
       </Routes>
       </BrowserRouter>

@@ -1,11 +1,29 @@
-import React from "react";
-
+import React from 'react'
+import Hero from "../components/block/Home/Hero"
+import Security from "../components/block/Home/Security"
+import Savings from "../components/block/Home/Savings"
+import Investment from '../components/block/Home/Investment'
+import Saver from '../components/block/Home/Saver'
+import Rev from '../components/block/Home/Rev'
+import Logo from "../static/Logo"
+import Footer from "../static/Footer"
 const Home = () => {
   return (
     <div>
-      <h1 className="text-center m-20 text-9xl text-green-600">Home</h1>
-    </div>
-  );
-};
+      <Hero/>
+      <Security/>
+      <Savings/>
+      <Investment/>
+      <Saver/>
+      <Rev/>
+      <Logo/>
+      <Footer/>
+      
+      
 
-export default Home;
+ 
+    </div>
+  )
+}
+
+export default Home
